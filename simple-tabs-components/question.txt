@@ -1,0 +1,41 @@
+Your task is to implement a simple tabs component in React
+
+Requirements
+
+Your component must return a div With a className Of tabs.
+For each children element with the title property, the component should render a button with the className Of btn.
+
+Clicking on a button should change the currently active tab by:
+  - rendering a child element corresponding to it a div with a className of view;
+  - disabling the button (HTML attribute) and chaning its className to btn-active;
+
+Intially the first tab should be active (the first child rendered, and the first button disabled and with class btn-active).
+Only one button should be active at any given moment.
+
+Remember to make your component the default export.
+
+Hints
+   
+    -Your solution will be evaluated based on its correctness; performance and coding style will not
+    be assessed.
+    - Both class and functional components are allowed.
+
+Example used of your MyTabsComponents Component
+
+
+<MyTabsComponent>
+  <div title={"Section title 1"}>Content of section 1</div>
+  <div title={"Section title 2"}>Content of section 2</div>
+
+</MyTabsComponent>
+
+the above example should render tnis structure.
+
+<div class="tabs" >
+<button class="btn-active">Section title 1</button>
+<button class="btn">Section title 2</button>
+    <div class="view">
+    Content of section 1
+    </div>
+</div>
+
