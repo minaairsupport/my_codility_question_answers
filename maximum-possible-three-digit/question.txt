@@ -1,0 +1,15 @@
+Write a function that, given 3-digit integer N and integer K, return the maximum 
+possible 3-digit value that can be obtained by performing at most K increases 
+by 1 of any digit in N.
+
+Examples:
+1. Given N=512 and K=10, the function should return 972. The result can 
+   be obtained by increasing the first digit of N four times and the second digit six times.
+2. Given N=191 and K=4, the function should return 591. The result can 
+   be obtained by increasing the first digit of N four times.
+3. Given N=285 and K=20, the function should return 999. The result can 
+   be obtained by increasing the first digit of N seven times, the second digit once and the third digit four times.
+
+Assumptions:
+1. N is an integer within the range [100...999];
+2. K is an integer within the range [0...30];
